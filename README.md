@@ -13,14 +13,14 @@ En está práctica aprendimos a pasar del modelo E/R al modelo lógico. Una vez 
 ![viveros](https://github.com/alu0100884524/practica_modelo_logico/blob/main/images/vivero.png)
 
 **Script**
-[Script_Viveros]()
+[Script_Viveros](https://github.com/alu0100884524/practica_modelo_logico/blob/main/scripts/vivero.sql)
 
 ### Modelo E/R catastro
 
-![catastro](https://github.com/alu0100884524/practica_modelo_logico/blob/main/images/catastro.png)
+![catastro](https://github.com/alu0100884524/practica_modelo_logico/blob/main/images/Catastro.png)
 
 **Script**
-[Script_Catastro]()
+[Script_Catastro](https://github.com/alu0100884524/practica_modelo_logico/blob/main/scripts/catastro.sql)
 
 Mencionar que con este modelo, se nos genera el problema de la 'Gallina o el huevo'. Como vemos persona tiene una dirección en vivienda o en piso, pero a su vez vivienda o piso tienen una persona que es propietaria. Entonces al hacer un insert no se sabe que fué antes. Por ello como solución ponemos los atributos dueño, numero, piso, calle y letra con posibilidad de ser nulos, para que a la hora de insertar podamos primero insertar la vivienda y luego la persona.
 
